@@ -16,6 +16,17 @@
   font-family: "Nunito", serif;
 }
 
+.newsletter {
+  background: #0A223D url(img/Slider.jpg);
+  opacity: 0.8;
+}
+
+.newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .header {
   background-color: #fff;
 }
@@ -160,6 +171,7 @@
 
 .hotel__rent {
   display: flex;
+  margin-bottom: 72px;
 }
 
 .start {
@@ -232,4 +244,49 @@
 .hotel__rent--container {
   display: flex;
   flex-direction: column;
+}
+
+.newsletter {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.newsletter-text {
+  font-size: 24px;
+  color: white;
+}
+
+.newsletter-h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.newsletter-input {
+  width: 285px;
+  height: 55px;
+  border: 0;
+  color: #bdbdbd;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.newsletter-button {
+  width: 65px;
+  height: 55px;
+  background-color: #EC1F46;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+}
+
+.newsletter-search {
+  display: flex;
+  border-radius: 3px;
+}
+
+input:hover {
+  border: 0;
 }/*# sourceMappingURL=style.css.map */
