@@ -612,6 +612,7 @@
 
 .footer-container__card--2 {
   display: flex;
+  margin-bottom: 98px;
 }
 
 .block-2__button {
@@ -632,4 +633,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-end__block {
+  text-align: center;
+}
+
+.end-span {
+  color: white;
+  font-size: 12px;
+  margin-right: 11px;
+}
+
+.footer-end__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 400px;
+  width: 800px;
 }/*# sourceMappingURL=style.css.map */
